@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KILAMA Ambrozya - Portfolio</title>
+  <style>
+    /* --- Style général --- */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #ff4ecd, #6a0dad);
+      color: #fff;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    /* Animation de fondu d'entrée */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffea00;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 15px;
+      margin-top: 30px;
+      transition: transform 0.3s, background 0.3s;
+    }
+    section:hover {
+      transform: scale(1.02);
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      color: #ffea00;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #ffea00;
+      font-size: 1.2em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      margin-top: 40px;
+    }
+
+    a {
+      color: #ffea00;
+    }
+  </style>
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <h1>KILAMA Ambrozya</h1>
+    <p>Élève de Terminale STMG - Spécialité SIG | Passionnée par le numérique et motivée à découvrir de nouvelles expériences</p>
+    <nav>
+      <a href="#parcours">Parcours</a>
+      <a href="#experiences">Expériences</a>
+      <a href="#diplomes">Diplômes</a>
+      <a href="#projets">Projets</a>
+      <a href="#passions">Passions</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Parcours scolaire -->
+  <section id="parcours">
+    <h2>Mon Parcours</h2>
+    <ul>
+      <li><strong>2024 - 2025 :</strong> Terminale STMG (Spécialité SIG)</li>
+      <li><strong>2023 - 2024 :</strong> Première STMG</li>
+      <li><strong>2022 - 2023 :</strong> Seconde générale et technologique</li>
+      <li><strong>2022 :</strong> Diplôme National du Brevet - Collège Louise Michel, Païta</li>
+    </ul>
+  </section>
+
+  <!-- Expériences -->
+  <section id="experiences">
+    <h2>Mes Expériences</h2>
+    <ul>
+      <li><strong>2024 :</strong> Travail chez <em>Urban Nouméa</em> (1 an) → Développement de la relation client et confiance en moi</li>
+      <li><strong>2022 :</strong> Stage de 3ème à la boucherie <em>Korail Païta</em> → Sens des responsabilités et organisation</li>
+      <li><strong>2023 :</strong> Voyage international à Wallis pour un tournoi de rugby avec la ligue féminine → Amélioration de mon anglais grâce aux échanges avec d’autres équipes</li>
+    </ul>
+  </section>
+
+  <!-- Diplômes -->
+  <section id="diplomes">
+    <h2>Mes Diplômes</h2>
+    <ul>
+      <li><strong>2022 :</strong> Brevet des collèges - Collège Louise Michel (Païta)</li>
+    </ul>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets">
+    <h2>Mes Projets</h2>
+    <p>Mon objectif est de devenir <strong>contrôleuse aérienne dans l’armée de l’air</strong>.  
+    En parallèle, je souhaite continuer à acquérir des compétences dans le numérique et à multiplier les expériences pour progresser dans ce domaine.</p>
+  </section>
+
+  <!-- Passions -->
+  <section id="passions">
+    <h2>Mes Passions</h2>
+    <ul>
+      <li>Rugby</li>
+      <li>Voyages</li>
+      <li>Course à pied</li>
+      <li>Musculation</li>
+      <li>Natation</li>
+      <li>Numérique</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email : <a href="mailto:kilama.ambrozya@gmail.com">kilama.ambrozya@gmail.com</a></p>
+    <p>Âge : 18 ans</p>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 - Portfolio de KILAMA Ambrozya</p>
+  </footer>
+</body>
+</html>
