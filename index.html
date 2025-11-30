@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KILAMA Ambrozya - Portfolio</title>
+
   <style>
     /* Vidéo en fond */
     #bg-video {
@@ -12,8 +13,8 @@
       bottom: 0;
       min-width: 100%;
       min-height: 100%;
-      z-index: -1; /* Permet au contenu de passer au-dessus */
-      object-fit: cover; /* Adapte la vidéo à l’écran */
+      z-index: -1;
+      object-fit: cover;
     }
 
     /* --- Style général --- */
@@ -21,6 +22,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
+      background: linear-gradient(135deg, #ff4ecd, #6a0dad);
       color: #fff;
       animation: fadeIn 1.2s ease-in;
     }
@@ -40,6 +42,11 @@
       font-size: 2.5em;
       margin-bottom: 10px;
     }
+    header p {
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+
     nav {
       margin-top: 15px;
     }
@@ -48,7 +55,7 @@
       color: #ffea00;
       text-decoration: none;
       font-weight: bold;
-      transition: color 0.3s;
+      transition: 0.3s;
     }
     nav a:hover {
       color: #fff;
@@ -61,7 +68,7 @@
       background: rgba(0, 0, 0, 0.5);
       border-radius: 15px;
       margin-top: 30px;
-      transition: transform 0.3s, background 0.3s;
+      transition: 0.3s;
     }
     section:hover {
       transform: scale(1.02);
@@ -103,7 +110,9 @@
     }
   </style>
 </head>
+
 <body>
+
   <!-- Vidéo de fond -->
   <video autoplay muted loop id="bg-video">
     <source src="videos/fond-canva.mp4" type="video/mp4">
@@ -112,7 +121,7 @@
   <!-- En-tête -->
   <header>
     <h1>KILAMA Ambrozya</h1>
-    <p>Élève de Terminale STMG - Spécialité SIG | Passionnée par le numérique et motivée</p>
+    <p>Élève de Terminale STMG - Spécialité SIG | Passionnée par le numérique et motivée à découvrir de nouvelles expériences</p>
     <nav>
       <a href="#parcours">Parcours</a>
       <a href="#experiences">Expériences</a>
@@ -130,7 +139,7 @@
       <li><strong>2024 - 2025 :</strong> Terminale STMG (Spécialité SIG)</li>
       <li><strong>2023 - 2024 :</strong> Première STMG</li>
       <li><strong>2022 - 2023 :</strong> Seconde générale et technologique</li>
-      <li><strong>2022 :</strong> Brevet - Collège Louise Michel (Païta)</li>
+      <li><strong>2022 :</strong> Diplôme National du Brevet - Collège Louise Michel, Païta</li>
     </ul>
   </section>
 
@@ -155,8 +164,10 @@
   <!-- Projets -->
   <section id="projets">
     <h2>Mes Projets</h2>
-    <p>Mon objectif est de devenir <strong>contrôleuse aérienne dans l’armée de l’air</strong>.  
-    En parallèle, je souhaite progresser dans le numérique et multiplier les expériences pour m’améliorer dans ce domaine.</p>
+    <p>
+      Mon objectif est de devenir <strong>contrôleuse aérienne dans l’armée de l’air</strong>.  
+      En parallèle, je souhaite progresser dans le numérique et multiplier les expériences pour m’améliorer dans ce domaine.
+    </p>
   </section>
 
   <!-- Passions -->
@@ -183,5 +194,6 @@
   <footer>
     <p>&copy; 2025 - Portfolio de KILAMA Ambrozya</p>
   </footer>
+
 </body>
 </html>
